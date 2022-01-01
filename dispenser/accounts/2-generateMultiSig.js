@@ -18,5 +18,8 @@ const multisigParams = {
 
 // Calculate multisig account
 const multisigAddress = algosdk.multisigAddress(multisigParams);
+console.log("Using Address 1: ", walletAddress1);
+console.log("Using Address 2: ", walletAddress2);
+console.log("Using Address 3: ", walletAddress3);
 console.log("Constructing with threshold: ", multisigParams.threshold);
 console.log("Calculated multisig address: ", multisigAddress);
