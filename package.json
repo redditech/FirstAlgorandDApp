@@ -1,0 +1,16 @@
+{
+  "name": "firstalgoapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generateAccounts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nissan Dookeran",
+  "license": "ISC",
+  "dependencies": {
+    "algosdk": "^1.13.0-beta.2",
+    "dotenv": "^10.0.0"
+  }
+}
